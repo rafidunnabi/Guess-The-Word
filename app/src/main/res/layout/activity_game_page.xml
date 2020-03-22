@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204757"
+    tools:context=".GamePage">
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="410dp"
+        android:layout_height="130dp"
+        android:background="#082133"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="35dp"
+        android:paddingStart="54dp"
+        android:text="Guess The Word"
+        android:textColor="#FDFEFE"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/String"
+        android:layout_width="301dp"
+        android:layout_height="107dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="700dp"
+        android:layout_x="51dp"
+        android:layout_y="194dp"
+        android:background="#082133"
+        android:fontFamily="serif-monospace"
+        android:padding="13dp"
+        android:text="BIR_S"
+
+        android:textAlignment="center"
+        android:textColor="#FDFEFE"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/editTeext"
+        android:layout_width="326dp"
+        android:layout_height="80dp"
+        android:layout_x="38dp"
+        android:layout_y="335dp"
+
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#A79D9D"
+        android:textColorHint="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="478dp"
+        android:background="#082133"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="GO"
+        android:textColor="#FDFEFE"
+
+        android:textSize="40dp" />
+
+</AbsoluteLayout>
