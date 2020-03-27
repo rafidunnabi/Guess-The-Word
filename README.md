@@ -1,2 +1,5 @@
 # Guess-The-Word
-A mini project to introduce myself to android 
+
+Student ID: 180104122
+
+Lab Section: C1
